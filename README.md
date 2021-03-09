@@ -1,2 +1,1 @@
-# javaSourceCodeRepo
-Repo. for java code
+codes of arrays
