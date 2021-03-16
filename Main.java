@@ -5,6 +5,7 @@ public class Main extends Calculate {
 	public static void main(String[] args) {
 
 		int result = new Calculate() {public int add(int a , int b) {return a+b;}}.add(10, 20); // here we have written anonymous class
+		// if we write something with object into the curlly braces it will treated as Anonymous class.
 		
 		System.out.println(result);
 	}
