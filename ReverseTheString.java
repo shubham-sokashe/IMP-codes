@@ -105,16 +105,16 @@ public class ReverseTheString  {
 	
 	
 	// using recursion
-/*	public static String reverseStringUsingrecursion(String str) {
+	public static String reverseStringUsingrecursion(String str) {
 		
 		if(checkForInvalidString(str)) {
 			
-				if(str.length() < 2)
-				{
+				if(str.length() < 2){
 					return str;
 				}
-				return reverseStringUsingrecursion(str.substring(1) + str.charAt(0));
-			
+				else {
+				return reverseStringUsingrecursion(str.substring(1)) + str.charAt(0);
+				}
 			
 		}
 		else {
@@ -123,7 +123,11 @@ public class ReverseTheString  {
 		
 		
 	}
-	*/
+	
+	// using collection reverse
+	
+
+	
 	public static void main(String[] args) {
 		System.out.println("String to be reversed : " + "abc");
 		System.out.println("Reversed String  using StringBuffer : " + reverseStringUsingBuffer("abc"));
@@ -138,7 +142,7 @@ public class ReverseTheString  {
 		System.out.println("Reversed String  using toCharArray() method : " + reverseStringUsingToCharArray("stu"));
 		
 		System.out.println("\nString to be reversed : " + "def");
-		//System.out.println("Reversed String  using  recursion : " + reverseStringUsingrecursion("def"));
+		System.out.println("Reversed String  using  recursion : " + reverseStringUsingrecursion("def"));
 	}
 
 }
