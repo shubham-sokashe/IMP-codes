@@ -1,26 +1,22 @@
 package StringInteviewQuestions;
 
-
-// code has methods to reverse the given string
-
-
 public class ReverseTheString  {
 
 	// null check 
 	private static boolean checkForInvalidString(String str) {
-		if ((null != str) && (str.trim().isEmpty())) { 
-			return false;
+		if ((null != str) && (!str.trim().isEmpty())) { 
+			return true;
 			}
 		else {
-			return true;
+			return false;
 			}
 	}
 
 	
 	// using StringBuffer
-	public static String reverseStringUsingBuffer(String str) {
+	public static String reverseStringUsingBuffer(String str) throws NullPointerException {
 		if(checkForInvalidString(str)) {
-			if(str.trim().length()== 1) {
+			if(str.trim().length()== 1) { //!(str.trim().isEmpty())
 				return "Enterd only one character" ;
 			}
 			else {
@@ -109,6 +105,7 @@ public class ReverseTheString  {
 		
 		if(checkForInvalidString(str)) {
 			
+			
 				if(str.length() < 2){
 					return str;
 				}
@@ -129,6 +126,7 @@ public class ReverseTheString  {
 
 	
 	public static void main(String[] args) {
+		
 		System.out.println("String to be reversed : " + "abc");
 		System.out.println("Reversed String  using StringBuffer : " + reverseStringUsingBuffer("abc"));
 		
