@@ -1,4 +1,4 @@
-package StringInteviewQuestions;
+                      package StringInteviewQuestions;
 
 public class AnagramString {
 	
