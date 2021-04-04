@@ -14,7 +14,7 @@ public class CollegeInnerClass {
 //----------------------------------------------------------------------
 	
 	// inner class of student
-	class Student{
+	 class Student{
 		
 		 private int studentRollNO ;
 		 private String studentName ;
@@ -32,6 +32,8 @@ public class CollegeInnerClass {
 		public String getStudentName() {
 			return this.studentName;
 		}
+		
+		
 	}
 //----------------------------------------------------------------------
 	
@@ -59,6 +61,12 @@ public class CollegeInnerClass {
 				
 			};
 			return sub1.subjectName();
+		}
+
+		@Override
+		public String subjectName() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 	}
 	
@@ -103,7 +111,6 @@ public class CollegeInnerClass {
 		System.out.println("College name : " + collegename);
 		System.out.println("Student Roll No : " + s1.getStudentRollNo());
 		System.out.println("Student Name : " + s1.getStudentName());
-		
 	}
 	
 	// method to print teacher info
