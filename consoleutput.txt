@@ -1,0 +1,106 @@
+Buffer Reader has initiated the reading...
+
+
+File is accepted to read..
+
+
+Is BufferReader is ready to read file : true
+
+
+Buffer Reader has Completed the reading...
+
+
+Buffer Reader has extracted the lines...
+
+
+Initiating sorting of lines...
+
+
+File Sorting is Completed...
+
+ Ready to persist..
+
+
+BufferedReader Object closed....
+
+
+Header row to persist : 4
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , currencyID , denomID , baseCashableAmt , noteDateTime) VALUES ('143709','2020-12-02-08.33.42.000000','1','3243813','USD','$5','$5','2020-12-02-08.33.42.000000')
+row affected : 1
+Header row to persist : 4
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , currencyID , denomID , baseCashableAmt , noteDateTime) VALUES ('','','1','3243816','USD','$5','$5','2020-12-02-08.34.20.000000')
+row affected : 1
+Header row to persist : 5
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , validationID , voucherSequenc , voucherAmt , transferDateTime) VALUES ('143709','2020-12-02-08.33.50.000000','1','3243814','XXXXXXXXXXXXXX1900','5640','$5','2020-12-02-08.33.45.000000')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('143709','2020-12-02-08.34.29.000000','3185875','18','3243817','2020-12-02-08.34.29.000000','G2S_gameEnded','G2S_gameWon','$0.01','$0.5','$0.5','$0.1','$0','$0','$0','$0.1','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.27.000000','$4.5','$0','$0','$4.60','$0','$0','0','0')
+row affected : 1
+Header row to persist : 2
+INSERT INTO game_data(winLevelIndex , winLevelCombo , progressiveAllowed) VALUES ('22','Main Game Wins_3 YellowStarfis','false')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185876','18','3243818','2020-12-02-08.34.33.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.30.000000','$4.10','$0','$0','$4.10','$0','$0','0','0')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185877','18','3243819','2020-12-02-08.34.36.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.33.000000','$3.6','$0','$0','$3.6','$0','$0','0','0')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185878','18','3243820','2020-12-02-08.34.39.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.36.000000','$3.1','$0','$0','$3.1','$0','$0','0','0')
+row affected : 1
+DataBase Connection has been closed...
+
+
+Buffer Reader has initiated the reading...
+
+
+File is accepted to read..
+
+
+Is BufferReader is ready to read file : true
+
+
+Buffer Reader has Completed the reading...
+
+
+Buffer Reader has extracted the lines...
+
+
+Initiating sorting of lines...
+
+
+File Sorting is Completed...
+
+ Ready to persist..
+
+
+BufferedReader Object closed....
+
+
+Header row to persist : 4
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , currencyID , denomID , baseCashableAmt , noteDateTime) VALUES ('143709','2020-12-02-08.33.42.000000','1','3243813','USD','$5','$5','2020-12-02-08.33.42.000000')
+row affected : 1
+Header row to persist : 4
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , currencyID , denomID , baseCashableAmt , noteDateTime) VALUES ('','','1','3243816','USD','$5','$5','2020-12-02-08.34.20.000000')
+row affected : 1
+Header row to persist : 5
+INSERT INTO game_data(VLTID , CreationDateTime , DeviceID , transactionID , validationID , voucherSequenc , voucherAmt , transferDateTime) VALUES ('143709','2020-12-02-08.33.50.000000','1','3243814','XXXXXXXXXXXXXX1900','5640','$5','2020-12-02-08.33.45.000000')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('143709','2020-12-02-08.34.29.000000','3185875','18','3243817','2020-12-02-08.34.29.000000','G2S_gameEnded','G2S_gameWon','$0.01','$0.5','$0.5','$0.1','$0','$0','$0','$0.1','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.27.000000','$4.5','$0','$0','$4.60','$0','$0','0','0')
+row affected : 1
+Header row to persist : 2
+INSERT INTO game_data(winLevelIndex , winLevelCombo , progressiveAllowed) VALUES ('22','Main Game Wins_3 YellowStarfis','false')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185876','18','3243818','2020-12-02-08.34.33.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.30.000000','$4.10','$0','$0','$4.10','$0','$0','0','0')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185877','18','3243819','2020-12-02-08.34.36.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.33.000000','$3.6','$0','$0','$3.6','$0','$0','0','0')
+row affected : 1
+Header row to persist : 1
+INSERT INTO game_data(VLTID , CreationDateTime , LogSequence , DeviceID , TransactionID , GameTime , playState , playResult , Denom , Initialwager , Finalwager , InitialWin , SecondaryPlayed , Secondarywager , SecondaryWin , FinalWin , paytableId , ThemeId , InitialStartTime , InitialPlayerCashableAmount , InitialPlayerNonCashableAmount , InitialPlayerPromoAmount , playerCashableAmount , playerNonCashableAmount , playerPromoAmount , PlayerSessionID , PlayerID) VALUES ('','','3185878','18','3243820','2020-12-02-08.34.39.000000','G2S_gameEnded','G2S_gameLost','$0.01','$0.5','$0.5','$0','$0','$0','$0','$0','GTK_10800A-PS','GTK_OceanMagic','2020-12-02-08.34.36.000000','$3.1','$0','$0','$3.1','$0','$0','0','0')
+row affected : 1
+DataBase Connection has been closed...
+
+
