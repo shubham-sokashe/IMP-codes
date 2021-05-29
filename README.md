@@ -1,2 +1,2 @@
-# javaSourceCodeRepo
-Repo. for java code
+
+code to calculate score board
