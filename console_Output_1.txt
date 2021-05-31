@@ -1,0 +1,70 @@
+---------------------------- India  Vs  England----------------------------
+---------------------------- At Lord's, London ----------------------------
+---------------------------- On Aug-12-2021 ----------------------------
+---------------------------- 5 overs match. ----------------------------
+
+Team England has elected To Bat First..
+
+
+*************************************************************************
+
+
+over is :[wd, 3, 2, wd, 1, nb, 1, 6, 1]
+Score of this Over :17 / 0
+Current Runrate : 17.00 
+------------------------------------------------
+over is :[w, 2, nb, 6, 6, nb, 4, 3]
+Score of this Over :40 / 1
+Current Runrate : 20.00 
+------------------------------------------------
+over is :[2, nb, 4, 1, 4, 2, wd, 2]
+Score of this Over :57 / 1
+Current Runrate : 19.00 
+------------------------------------------------
+over is :[1, wd, 3, w, 1, nb, 1, 4]
+Score of this Over :69 / 2
+Current Runrate : 17.25 
+------------------------------------------------
+over is :[nb, 3, 4, 1, 6, w, 6]
+Score of this Over :90 / 3
+Current Runrate : 18.00 
+------------------------------------------------
+
+Team England has Scored : 90/3
+
+
+************************************ Inning Break ************************************
+
+
+over is :[4, wd, 6, 3, nb, 1, 6, wd, 1]
+Score of this Over :24 / 0
+Current Runrate : 24.00 
+Required Runrate for next over : 16.50 
+Runs to chase : 66 in Balls : 24
+------------------------------------------------
+over is :[1, wd, 3, nb, 3, 1, 3, nb, 2]
+Score of this Over :40 / 0
+Current Runrate : 20.00 
+Required Runrate for next over : 16.67 
+Runs to chase : 50 in Balls : 18
+------------------------------------------------
+over is :[nb, 2, 4, 1, 2, 4, 2]
+Score of this Over :56 / 0
+Current Runrate : 18.67 
+Required Runrate for next over : 17.00 
+Runs to chase : 34 in Balls : 12
+------------------------------------------------
+over is :[nb, 4, 6, 3, 3, nb, 2, 4]
+Score of this Over :80 / 0
+Current Runrate : 20.00 
+Required Runrate for next over : 10.00 
+Runs to chase : 10 in Balls : 6
+------------------------------------------------
+over is :[w, nb, 6, 6, 6, 1, 6]
+Score of this Over :106 / 1
+Current Runrate : 21.20 
+
+Team India has Scored : 106/1
+
+------------------Team India won the match by 9 wickets.------------------
+
