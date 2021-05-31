@@ -1,0 +1,32 @@
+May 31, 2021 9:25:12 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.2.6.Final}
+May 31, 2021 9:25:12 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+May 31, 2021 9:25:12 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+May 31, 2021 9:25:14 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+May 31, 2021 9:25:14 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernateStudentInfo]
+May 31, 2021 9:25:14 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=root, password=****}
+May 31, 2021 9:25:14 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+May 31, 2021 9:25:14 AM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+May 31, 2021 9:25:14 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+May 31, 2021 9:25:15 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@64da2a7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+|||||||||||| Student object has successfully ||||||||||||||||
+Hibernate: 
+    /* insert com.qickStart.demo.HIbernateFirstDemo.StudentPersistentClass
+        */ insert 
+        into
+            hibernate_student_demo
+            (student_Name, student_Address, student_Marks, student_Id) 
+        values
+            (?, ?, ?, ?)
+May 31, 2021 9:25:16 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernateStudentInfo]
