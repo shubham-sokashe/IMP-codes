@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-Mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+	<class name = "com.flightDataManagement.FlightDataManagementSystem.FlightDataEntity" table = "flight_data">
+		<id name = "flightID" column = "fight_id" type = "string"/>
+		<property name = "airLine" column = "air_line" type = "string"/>
+		<property name = "flightSource" column = "source" type = "string"/>
+		<property name = "flightDestination" column = "destination" type = "string"/>
+		<property name = "flightDepartureTime" column = "departure_time" type = "time"/>
+		<property name = "flightArrivalTime" column = "arrival_time" type = "time"/>
+		<property name = "flightIdleTime" column = "flight_idle_time" type = "time"/>
+	</class>
+</hibernate-mapping>
